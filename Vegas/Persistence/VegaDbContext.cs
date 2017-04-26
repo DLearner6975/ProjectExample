@@ -11,6 +11,6 @@ namespace Vegas.Persistence
         }
 
         public DbSet<Make> Makes { get; set; }
-        public DbSet<Features> Features { get; set; }
+        public DbSet<Feature> Features { get; set; }
     }
 }
